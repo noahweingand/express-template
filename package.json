@@ -1,0 +1,34 @@
+{
+  "name": "express-template",
+  "version": "1.0.0",
+  "description": "My Express.js REST API starter template",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "nyc nyc --reporter=lcov --reporter=text --reporter=text-summary mocha --exit test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahweingand/express-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahweingand/express-template/issues"
+  },
+  "homepage": "https://github.com/noahweingand/express-template#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.2.1",
+    "mocha-logger": "^1.0.7",
+    "nodemon": "^2.0.6",
+    "nyc": "^15.1.0",
+    "supertest": "^6.0.1"
+  }
+}
