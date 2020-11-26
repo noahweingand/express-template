@@ -1,5 +1,5 @@
 # express-template
-My Express.js REST API starter template. Includes typical dependencies and structure I use to develop locally.
+My Express.js REST API starter template. Includes usual dependencies and file structure I use to develop locally.
 
 ## Installation
 Run ```npm install``` to install all dependencies.
